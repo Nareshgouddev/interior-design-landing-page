@@ -328,9 +328,140 @@ text-align: center;
 .firsr-list{
     background-color: green;
 }
+.product-row{
+    display: flex;
+        gap: 24px;
+        /* Space between cards */
+        justify-content: flex-start;
+        /* or center, space-between, etc. */
+        align-items: flex-start;
+        margin: 32px;
+        flex-wrap: wrap
+}
 
+.product-card {
+    width: 240px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 18px 18px 16px 18px;
+    position: relative;
+    transition: box-shadow 0.2s;
+}
 
+.product-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.14);
+}
 
+.discount-badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #1d7c42;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+
+.card-actions {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.product-card:hover .card-actions {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.card-actions button {
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.10);
+    transition: background 0.15s;
+}
+
+.card-actions button:hover {
+    background: #f1f1f1;
+}
+
+.product-img {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+.deal-timer {
+    background: #ffcc37;
+    color: #333;
+    border-radius: 8px;
+    padding: 7px 0;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    margin-top: 5px;
+}
+
+.category-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.category {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.rating {
+    color: #FFD700;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 7px 0;
+    color: #333;
+}
+
+.price {
+    display: flex;
+    gap: 7px;
+    align-items: baseline;
+}
+
+.current-price {
+    color: #1d7c42;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.old-price {
+    color: #bbb;
+    text-decoration: line-through;
+    font-size: 16px;
+}
 
 
 
