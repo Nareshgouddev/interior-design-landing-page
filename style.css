@@ -4,8 +4,10 @@
     padding: 0;
 }
 
+
+
 .image{
-    width: 120px;
+    width: 120px; 
     height: 75px;
     margin-left: 0px;
 }
@@ -280,11 +282,16 @@
 
 }
 .left-card{
-    height: 600px;
+    /* height: 600px;
     width: 500px;
     background-color: rgb(209, 203, 203);
-    border-radius: 30px;
+    border-radius: 30px; */
     margin: 0px 80px 0px 100px;
+}
+.left-card img{
+    height: 600px;
+    width: 500px;
+    border-radius: 30px;
 }
 .right-card-one{
     height: 280px;
@@ -293,12 +300,22 @@
     border-radius: 30px;
     margin: 0px 100px 40px 30px;
 }
+.right-card-one img{
+    height: 280px;
+    width: 500px;
+    border-radius: 30px;
+}
 .right-card-two {
     height: 280px;
     width: 500px;
     background-color: rgb(209, 203, 203);
     border-radius: 30px;
     margin: 0px 100px 40px 30px;
+}
+.right-card-two img{
+    height: 280px;
+    width: 500px;
+    border-radius: 30px;
 }
 
 .our-products p{
