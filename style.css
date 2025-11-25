@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -9,38 +11,35 @@
 .image{
     width: 120px; 
     height: 75px;
-    margin-left: 0px;
 }
 .navbar{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-items:center;
-    justify-content: space-between;  
+    justify-items: center;
+    justify-content: space-between;
 }
 .nav-list{
-    display: flex;  
+    display: flex;
     list-style: none;
     margin: 10px;
-    
 }
 .list{
     margin: 8px;
     font-family: 'Roboto Mono',serif;
-
+    font-weight: 600;
 }
 .Symbols{
-    padding:10px;
+    padding: 10px;
     margin: 10px;
 }
 
 .home{
-    background-color: rgb(240, 240, 240); 
-    /* background: url('backgroundimage.jpg'); */
+    background-color: rgb(240, 240, 240);
     height: 100vh;
-     width: 100vw; 
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-}    
+}
 .line-card{
     background-color: white;
     border-radius: 40px;
@@ -56,12 +55,12 @@
     background-color: rgb(243, 204, 78);
     color: green;
     border-radius: 50px;
-    padding: 3px 2px 2px 2px ;
+    padding: 3px 2px 2px 2px;
 }
 .home-left-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:30px 0px 0px 50px;
-    font-size:22px ;
+    margin: 30px 0px 0px 50px;
+    font-size: 22px;
 }
 .home-left-text span{
     color: green;
@@ -77,7 +76,7 @@
 }
 .button button{
     padding: 10px;
-    font-size:16px;
+    font-size: 16px;
     border-radius: 30px;
     background-color: green;
     margin: 0px 50px 0px 0px;
@@ -128,11 +127,13 @@
 }
 
 .card h4{
-    margin: 0px 0px 0px 20px ;
+    margin: 0px 0px 0px 20px;
 }
+
 .card p{
     margin: 0px 0px 0px 20px;
 }
+
 .card span{
     margin: 0px 0px 0px 250px;
     font-size: 20px;
@@ -152,28 +153,26 @@
     border-radius: 50%;
     padding: 10px;
     margin: 3px;
-    font-size:20px;
+    font-size: 20px;
     cursor: pointer;
-    
 }
 .Arrow span{
     background-color: green;
     border-radius: 50px;
-    padding:10px ;
+    padding: 10px;
     margin: 3px;
     font-size: 20px;
     cursor: pointer;
-} 
+}
  :root {
-     --avatar-size: 36px;
-     --avatar-overlap: 12px;
-     --plus-size: 36px;
-     --yellow: #FFB400;
-     /* adjust to match your design */
-     --muted: #8b8b8b;
-     --text-color: #111;
-     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
- }
+    --avatar-size: 36px;
+    --avatar-overlap: 12px;
+    --plus-size: 36px;
+    --yellow: #FFB400;
+    --muted: #8b8b8b;
+    --text-color: #111;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
 
  .rating-row {
      display: flex;
@@ -257,29 +256,25 @@
          font-size: 11px;
      }
  }
- .rating-row{
-    margin:30px 0px 0px 40px ;
- }
+.rating-row{
+    margin: 30px 0px 0px 40px;
+}
 .support{
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-evenly;
-    /* border-radius: 40px; */
-
 }
 .shipping{
-    margin:50px;
+    margin: 50px;
 }
+
 .shipping h4{
     font-size: 18px;
-    
 }
 .shipping p{
     font-size: 14px;
 }
 .cards2{
     display: flex;
-
 }
 .left-card{
     /* height: 600px;
@@ -319,9 +314,10 @@
 }
 
 .our-products p{
-font-size: 16px;
-text-align: center;
+    font-size: 16px;
+    text-align: center;
 }
+
 .our-products h1{
     color: green;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -331,29 +327,27 @@ text-align: center;
     display: flex;
     list-style-type: none;
     text-align: center;
-    margin:10px 100px 0px 300px;
-   
+    margin: 10px 100px 0px 300px;
 }
+
 .our-Products-list ul li{
     border: 1px solid black;
     border-radius: 20px;
-    padding:8px;
-    margin-right:50px;
+    padding: 8px;
+    margin-right: 50px;
     margin-bottom: 40px;
     font-weight: 500;
 }
-.firsr-list{
+.first-list{
     background-color: green;
 }
 .product-row{
     display: flex;
-        gap: 24px;
-        /* Space between cards */
-        justify-content: flex-start;
-        /* or center, space-between, etc. */
-        align-items: flex-start;
-        margin: 32px;
-        flex-wrap: wrap
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 32px;
+    flex-wrap: wrap;
 }
 
 .product-card {
@@ -480,79 +474,8 @@ text-align: center;
     font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-logo-section{
-    margin:0px 0px 0px 40px ;
-      
+    margin: 0px 0px 0px 40px;
 }
 .footer-logo-section p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -582,45 +505,31 @@ text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-}
-.footer-link-section h4{
-    margin: 10px 0px 15px 0px;
-    color: blue;
-    font-size: 18px;
-} 
-.footer-link-section li{
-    list-style-type:none;
-    margin:0px 0px 3px 0px; ;
-    font-size: 15px;
-    font-family:"Roboto Mono","sarif" ;
-    cursor: pointer;
-}
-.footer-link-section{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     gap: 40px;
 }
 
+.footer-link-section h4{
+    margin: 10px 0px 15px 0px;
+    color: blue;
+    font-size: 18px;
+}
+
+.footer-link-section li{
+    list-style-type:none;
+    margin:0px 0px 3px 0px;
+    font-size: 15px;
+    font-family:"Roboto Mono","serif";
+    cursor: pointer;
+}
+
 .social-icons{
     display: inline-block;
-        margin: 0 7px 0 0;
-        color: black;
-        font-size: 1.25em;
-        background: rgba(255, 255, 255, 0.12);
-        padding: 9px;
-        border-radius: 50%;
+    margin: 0 7px 0 0;
+    color: black;
+    font-size: 1.25em;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 9px;
+    border-radius: 50%;
     transition: background 0.2s;
 }
-/* .footer-bottom{
-    background-color: rgba(0, 166, 255, 0.266);
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-} */
